@@ -1,11 +1,11 @@
-const test = require("test");
+//const test = require("test");
 
 function run() {
     g.setFont("4x6:3");
     g.clear();
     const bt = new BlockedText("HELLO MARGO", 0, 0, 8, "#fff", "#000");
     bt.draw();
-    console.log(test.testData);
+    //console.log(test.testData);
 }
 
 class BlockedText {
